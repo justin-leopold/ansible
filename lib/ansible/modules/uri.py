@@ -293,9 +293,9 @@ EXAMPLES = r'''
     method: POST
     body_format: form-urlencoded
     body:
-    - [ name, your_username ]
-    - [ password, your_password ]
-    - [ enter, Sign in ]
+    - [name, your_username]
+    - [password, your_password]
+    - [enter, Sign in]
     status_code: 302
   register: login
 
